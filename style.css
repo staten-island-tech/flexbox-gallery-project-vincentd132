@@ -17,16 +17,19 @@ h1{
     margin: auto;
 }
 
-@media (max-width:1300px) {
-    .one, .one2, .one3, .one4, .one5, .one6, .one7, .one8, .one9 {width: calc(45% - 20px);}
+@media (max-width: 1300px) {
+    .one, .one2, .one3, .one4, .one5, .one6, .one7, .one8, .one9 {
+        width: calc(40% - 20px);
+    }
 }
 
-@media (max-width:900px) {
-    .one, .one2, .one3, .one4, .one5, .one6, .one7, .one8, .one9 {width: calc(100% - 40px);}
-    margin-left: 20px;
-    margin-right: 20px;
+@media (max-width: 900px) {
+    .one, .one2, .one3, .one4, .one5, .one6, .one7, .one8, .one9 {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
-
 
 .one {
     background-color: white;
@@ -34,7 +37,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -50,7 +53,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -66,7 +69,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -82,7 +85,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -98,7 +101,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -114,7 +117,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -130,7 +133,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -146,7 +149,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -162,7 +165,7 @@ h1{
     box-shadow: 0 4px 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(33.33% - 20px);
+    width: calc(25% - 20px);
     box-sizing: border-box;
     transition: transform 0.5s;
 }
@@ -170,4 +173,42 @@ h1{
 .one-img9{
     width: 100%;
     border-radius: 4px;
+}
+
+
+.one:hover{
+    transform: scale(1.1) translateY(10px);
+}
+
+.one2:hover{
+    transform: scale(1.1) translateY(10px);
+
+}
+
+.one3:hover{
+    transform: scale(1.1) translateY(10px);
+}
+
+.one4:hover{
+    transform: scale(1.1) translateY(10px);
+}
+
+.one5:hover{
+    transform: scale(1.1) translateY(10px);
+}
+
+.one6:hover{
+    transform: scale(1.1) translateY(10px);
+}
+
+.one7:hover{
+    transform: scale(1.1) translateY(10px);
+}
+
+.one8:hover{
+    transform: scale(1.1) translateY(10px);
+}
+
+.one9:hover{
+    transform: scale(1.1) translateY(10px);
 }
