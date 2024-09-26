@@ -49,13 +49,13 @@ h1{
 }
 
 @media (max-width: 1300px) {
-    .one{
+    .one, .one2, .one3, .one4, .one5, .one6{
         width: calc(40% - 20px);
     }
 }
 
 @media (max-width: 900px) {
-    .one{
+    .one, .one2, .one3, .one4, .one5, .one6{
         width: calc(100% - 40px);
         margin-left: 20px;
         margin-right: 20px;
