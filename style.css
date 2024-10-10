@@ -1,6 +1,6 @@
 html, 
 body {
-    padding: 20px;
+    padding: 0px;
     margin: 0;
     box-sizing: border-box;
     background-color: blanchedalmond;
@@ -71,7 +71,7 @@ h1{
 }
 
 .one3:hover{
-    transform: rotate(7200deg);
+    transform: rotate(72000deg);
 }
 
 .one4:hover{
